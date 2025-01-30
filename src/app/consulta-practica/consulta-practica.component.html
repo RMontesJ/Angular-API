@@ -1,0 +1,13 @@
+<p>consultarpractica works!</p>
+<ul>
+    <li *ngFor="let producto of productos">
+        <div class="card" style="width: 18rem;">
+            <img src="{{producto.thumbnail}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{producto.title}}</h5>
+              <p class="card-text">{{producto.description}}</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+    </li>
+</ul>
